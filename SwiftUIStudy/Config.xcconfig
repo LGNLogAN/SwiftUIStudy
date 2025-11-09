@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  SwiftUIStudy
+//
+//  Created by 최무빈 on 11/9/25.
+//
+
+// 테스트 환경 설정 파일
+
+SERVER_URL = http:/$()/naver.com
