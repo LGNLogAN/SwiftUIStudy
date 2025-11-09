@@ -10,9 +10,22 @@
 		45E451602EC0B086000034B5 /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		45E453652EC0C3A9000034B5 /* Exceptions for "SwiftUIStudy" folder in "SwiftUIStudy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 45E4515F2EC0B086000034B5 /* SwiftUIStudy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		45E451622EC0B086000034B5 /* SwiftUIStudy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				45E453652EC0C3A9000034B5 /* Exceptions for "SwiftUIStudy" folder in "SwiftUIStudy" target */,
+			);
 			path = SwiftUIStudy;
 			sourceTree = "<group>";
 		};
