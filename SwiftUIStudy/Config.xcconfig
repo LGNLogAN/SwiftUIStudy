@@ -7,4 +7,4 @@
 
 // 테스트 환경 설정 파일
 
-SERVER_URL = http:/$()/naver.com
+SERVER_URL = https:/​$()/naver.com

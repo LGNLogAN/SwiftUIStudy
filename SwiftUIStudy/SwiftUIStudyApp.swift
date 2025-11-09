@@ -16,15 +16,18 @@ struct SwiftUIStudyApp: App {
     // 앱을 실행하면 가장 먼저 빌드되는 최상위 파일
     init() {
         // Config 파일에 있는 서버 주소 , Info 파일에 등록해놓은 해당 변수
-        let serverURL = (Bundle.main.infoDictionary?["SERVER_URL"] as? String) ?? ""
-        
+        let serverURL = (Bundle.main.infoDictionary?["ServerURL"] as? String) ?? ""
+
+        // 디버깅: 실제로 어떤 값이 들어있는지 확인
+        print("📍 Debug - ServerURL 값: '\(serverURL)'")
+
         // 서버 주소가 비어있으면 Guard문에서 처리
         guard !serverURL.isEmpty else {
             print("⚠️ [ Warning ] 서버 주소가 설정 되어 있지 않습니다.")
             return
         }
-        
-        print("🔑 [Debug] Server URL : \(serverURL)")
+
+        BasicService.shared.getServerURL()
     }
     
     var body: some Scene {
