@@ -5,6 +5,13 @@
 //  Created by 최무빈 on 11/9/25.
 //
 
+/*
+    [ StepProgressBar Components ]
+    
+    회원가입 또는 단계별로 처리해야하는 뷰가 필요할 때 상태표시줄을 띄워주는 컴포넌트이다.
+    totalSteps 가 총 몇 단계인지 정의하고 currentStep으로 상태 변환 및 상태를 보여준다.
+    
+ */
 import SwiftUI
 
 struct StepProgressBar: View {
